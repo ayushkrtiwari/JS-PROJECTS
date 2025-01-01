@@ -19,9 +19,6 @@ buttons.forEach(function(button){
             case 'aqua':
                 body.style.backgroundColor=e.target.id;
                 break;
-            default:
-                body.style.backgroundColor='aliceblue';
-                break;
         }
     })
 });
