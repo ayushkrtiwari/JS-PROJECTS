@@ -34,3 +34,9 @@ buttons.forEach(button => {
         body.style.backgroundColor = e.target.id; 
     }); 
 });
+
+document.querySelector('.defaultbtn').addEventListener('click', e => { 
+    body.style.backgroundColor = e.target.className.split(' ')[0]; 
+    // Testing: console.log(e.target.className.split(' ')[0]
+    // Assuming the first class is the color 
+});
